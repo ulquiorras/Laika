@@ -1,0 +1,17 @@
+$theme-colors: (
+  "purple":#603E85,
+  "yellow": #FFB113,
+  "red":#C03C29,
+  "grey-light": #D2D2D2,
+  "grey": #7f7f7f,
+  "blue": #204969,
+  "purple-light": #725293,
+  "white": #fff,
+  "black": #000
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}

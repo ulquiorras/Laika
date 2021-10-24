@@ -1,10 +1,12 @@
 import React from 'react';
-import { InformationComponent } from './components/InformationComponent';
+import { HeaderBarComponent } from './components/HeaderBarComponent';
+import { InformationBarComponent } from './components/InformationBarComponent';
 
 function App() {
   return (
     <div className="App">
-      <InformationComponent/>
+      <InformationBarComponent/>
+      <HeaderBarComponent/>
     </div>
   );
 }
